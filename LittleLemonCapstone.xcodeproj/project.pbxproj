@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF078FFC29B97B76005C255B /* LittleLemonCapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF078FFB29B97B76005C255B /* LittleLemonCapstoneApp.swift */; };
+		CF078FFE29B97B76005C255B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF078FFD29B97B76005C255B /* ContentView.swift */; };
+		CF07900029B97B77005C255B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF078FFF29B97B77005C255B /* Assets.xcassets */; };
+		CF07900329B97B77005C255B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF07900229B97B77005C255B /* Preview Assets.xcassets */; };
+		CF07900829B97B77005C255B /* LittleLemonCapstone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF07900629B97B77005C255B /* LittleLemonCapstone.xcdatamodeld */; };
+		CF07901229B97B77005C255B /* LittleLemonCapstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF07901129B97B77005C255B /* LittleLemonCapstoneTests.swift */; };
+		CF07901C29B97B77005C255B /* LittleLemonCapstoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF07901B29B97B77005C255B /* LittleLemonCapstoneUITests.swift */; };
+		CF07901E29B97B77005C255B /* LittleLemonCapstoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF07901D29B97B77005C255B /* LittleLemonCapstoneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF07900E29B97B77005C255B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF078FF029B97B76005C255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF078FF729B97B76005C255B;
+			remoteInfo = LittleLemonCapstone;
+		};
+		CF07901829B97B77005C255B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF078FF029B97B76005C255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF078FF729B97B76005C255B;
+			remoteInfo = LittleLemonCapstone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF078FF829B97B76005C255B /* LittleLemonCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF078FFB29B97B76005C255B /* LittleLemonCapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapstoneApp.swift; sourceTree = "<group>"; };
+		CF078FFD29B97B76005C255B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF078FFF29B97B77005C255B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF07900229B97B77005C255B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF07900729B97B77005C255B /* LittleLemonCapstone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleLemonCapstone.xcdatamodel; sourceTree = "<group>"; };
+		CF07900D29B97B77005C255B /* LittleLemonCapstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonCapstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF07901129B97B77005C255B /* LittleLemonCapstoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapstoneTests.swift; sourceTree = "<group>"; };
+		CF07901729B97B77005C255B /* LittleLemonCapstoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonCapstoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF07901B29B97B77005C255B /* LittleLemonCapstoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapstoneUITests.swift; sourceTree = "<group>"; };
+		CF07901D29B97B77005C255B /* LittleLemonCapstoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapstoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF078FF529B97B76005C255B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07900A29B97B77005C255B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07901429B97B77005C255B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF078FEF29B97B76005C255B = {
+			isa = PBXGroup;
+			children = (
+				CF078FFA29B97B76005C255B /* LittleLemonCapstone */,
+				CF07901029B97B77005C255B /* LittleLemonCapstoneTests */,
+				CF07901A29B97B77005C255B /* LittleLemonCapstoneUITests */,
+				CF078FF929B97B76005C255B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF078FF929B97B76005C255B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF078FF829B97B76005C255B /* LittleLemonCapstone.app */,
+				CF07900D29B97B77005C255B /* LittleLemonCapstoneTests.xctest */,
+				CF07901729B97B77005C255B /* LittleLemonCapstoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF078FFA29B97B76005C255B /* LittleLemonCapstone */ = {
+			isa = PBXGroup;
+			children = (
+				CF078FFB29B97B76005C255B /* LittleLemonCapstoneApp.swift */,
+				CF078FFD29B97B76005C255B /* ContentView.swift */,
+				CF078FFF29B97B77005C255B /* Assets.xcassets */,
+				CF07900629B97B77005C255B /* LittleLemonCapstone.xcdatamodeld */,
+				CF07900129B97B77005C255B /* Preview Content */,
+			);
+			path = LittleLemonCapstone;
+			sourceTree = "<group>";
+		};
+		CF07900129B97B77005C255B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF07900229B97B77005C255B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF07901029B97B77005C255B /* LittleLemonCapstoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF07901129B97B77005C255B /* LittleLemonCapstoneTests.swift */,
+			);
+			path = LittleLemonCapstoneTests;
+			sourceTree = "<group>";
+		};
+		CF07901A29B97B77005C255B /* LittleLemonCapstoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF07901B29B97B77005C255B /* LittleLemonCapstoneUITests.swift */,
+				CF07901D29B97B77005C255B /* LittleLemonCapstoneUITestsLaunchTests.swift */,
+			);
+			path = LittleLemonCapstoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF078FF729B97B76005C255B /* LittleLemonCapstone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF07902129B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstone" */;
+			buildPhases = (
+				CF078FF429B97B76005C255B /* Sources */,
+				CF078FF529B97B76005C255B /* Frameworks */,
+				CF078FF629B97B76005C255B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleLemonCapstone;
+			productName = LittleLemonCapstone;
+			productReference = CF078FF829B97B76005C255B /* LittleLemonCapstone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF07900C29B97B77005C255B /* LittleLemonCapstoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF07902429B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstoneTests" */;
+			buildPhases = (
+				CF07900929B97B77005C255B /* Sources */,
+				CF07900A29B97B77005C255B /* Frameworks */,
+				CF07900B29B97B77005C255B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF07900F29B97B77005C255B /* PBXTargetDependency */,
+			);
+			name = LittleLemonCapstoneTests;
+			productName = LittleLemonCapstoneTests;
+			productReference = CF07900D29B97B77005C255B /* LittleLemonCapstoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF07901629B97B77005C255B /* LittleLemonCapstoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF07902729B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstoneUITests" */;
+			buildPhases = (
+				CF07901329B97B77005C255B /* Sources */,
+				CF07901429B97B77005C255B /* Frameworks */,
+				CF07901529B97B77005C255B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF07901929B97B77005C255B /* PBXTargetDependency */,
+			);
+			name = LittleLemonCapstoneUITests;
+			productName = LittleLemonCapstoneUITests;
+			productReference = CF07901729B97B77005C255B /* LittleLemonCapstoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF078FF029B97B76005C255B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CF078FF729B97B76005C255B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CF07900C29B97B77005C255B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CF078FF729B97B76005C255B;
+					};
+					CF07901629B97B77005C255B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CF078FF729B97B76005C255B;
+					};
+				};
+			};
+			buildConfigurationList = CF078FF329B97B76005C255B /* Build configuration list for PBXProject "LittleLemonCapstone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF078FEF29B97B76005C255B;
+			productRefGroup = CF078FF929B97B76005C255B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF078FF729B97B76005C255B /* LittleLemonCapstone */,
+				CF07900C29B97B77005C255B /* LittleLemonCapstoneTests */,
+				CF07901629B97B77005C255B /* LittleLemonCapstoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF078FF629B97B76005C255B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF07900329B97B77005C255B /* Preview Assets.xcassets in Resources */,
+				CF07900029B97B77005C255B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07900B29B97B77005C255B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07901529B97B77005C255B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF078FF429B97B76005C255B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF07900829B97B77005C255B /* LittleLemonCapstone.xcdatamodeld in Sources */,
+				CF078FFE29B97B76005C255B /* ContentView.swift in Sources */,
+				CF078FFC29B97B76005C255B /* LittleLemonCapstoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07900929B97B77005C255B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF07901229B97B77005C255B /* LittleLemonCapstoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07901329B97B77005C255B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF07901C29B97B77005C255B /* LittleLemonCapstoneUITests.swift in Sources */,
+				CF07901E29B97B77005C255B /* LittleLemonCapstoneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF07900F29B97B77005C255B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF078FF729B97B76005C255B /* LittleLemonCapstone */;
+			targetProxy = CF07900E29B97B77005C255B /* PBXContainerItemProxy */;
+		};
+		CF07901929B97B77005C255B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF078FF729B97B76005C255B /* LittleLemonCapstone */;
+			targetProxy = CF07901829B97B77005C255B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF07901F29B97B77005C255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF07902029B97B77005C255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF07902229B97B77005C255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF07902329B97B77005C255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonCapstone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF07902529B97B77005C255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonCapstone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonCapstone";
+			};
+			name = Debug;
+		};
+		CF07902629B97B77005C255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonCapstone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonCapstone";
+			};
+			name = Release;
+		};
+		CF07902829B97B77005C255B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLemonCapstone;
+			};
+			name = Debug;
+		};
+		CF07902929B97B77005C255B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileApp.LittleLemonCapstoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLemonCapstone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF078FF329B97B76005C255B /* Build configuration list for PBXProject "LittleLemonCapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF07901F29B97B77005C255B /* Debug */,
+				CF07902029B97B77005C255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF07902129B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF07902229B97B77005C255B /* Debug */,
+				CF07902329B97B77005C255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF07902429B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF07902529B97B77005C255B /* Debug */,
+				CF07902629B97B77005C255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF07902729B97B77005C255B /* Build configuration list for PBXNativeTarget "LittleLemonCapstoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF07902829B97B77005C255B /* Debug */,
+				CF07902929B97B77005C255B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF07900629B97B77005C255B /* LittleLemonCapstone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF07900729B97B77005C255B /* LittleLemonCapstone.xcdatamodel */,
+			);
+			currentVersion = CF07900729B97B77005C255B /* LittleLemonCapstone.xcdatamodel */;
+			path = LittleLemonCapstone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF078FF029B97B76005C255B /* Project object */;
+}
